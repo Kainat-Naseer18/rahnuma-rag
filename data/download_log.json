@@ -1,0 +1,614 @@
+[
+  {
+    "pair_id": "1",
+    "lang": "en",
+    "title": "Income Tax Basics",
+    "url": "https://www.fbr.gov.pk/income-tax-basics/51147/61148",
+    "file": "1_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "1",
+    "lang": "ur",
+    "title": "انکم ٹیکس سے متعلق بنیادی معلومات",
+    "url": "https://urdu.fbr.gov.pk/انکم-ٹیکس-سے-متعلق-بنیادی-باتیں/131444/131449",
+    "file": "1_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "2",
+    "lang": "en",
+    "title": "Register for Income Tax",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/61149",
+    "file": "2_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "2",
+    "lang": "ur",
+    "title": "انکم ٹیکس کے لیے رجسٹریشن",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131526",
+    "file": "2_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "3",
+    "lang": "en",
+    "title": "Taxpayer Registration Basics",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/71148",
+    "file": "3_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "3",
+    "lang": "ur",
+    "title": "ٹیکس گزاروں کی رجسٹریشن کے متعلق بنیادی معلومات",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131521",
+    "file": "3_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "4",
+    "lang": "en",
+    "title": "Requirements before Registration",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/%2071149",
+    "file": "4_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "4",
+    "lang": "ur",
+    "title": "رجسٹریشن سے پہلے درکار معلومات",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131523",
+    "file": "4_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "5",
+    "lang": "en",
+    "title": "Registration Process",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/%2071150",
+    "file": "5_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "5",
+    "lang": "ur",
+    "title": "رجسٹریشن کا طریقہ کار",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131524",
+    "file": "5_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "6",
+    "lang": "en",
+    "title": "Modification of Income Tax Registration",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/%2071151",
+    "file": "6_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "6",
+    "lang": "ur",
+    "title": "انکم ٹیکس رجسٹریشن میں تبدیلی",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131525",
+    "file": "6_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "7",
+    "lang": "en",
+    "title": "Cancellation of Income Tax Registration",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/%2071152",
+    "file": "7_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "7",
+    "lang": "ur",
+    "title": "انکم ٹیکس رجسٹریشن کی تنسیخ",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131528",
+    "file": "7_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "8",
+    "lang": "en",
+    "title": "Change in Particulars of Registration",
+    "url": "https://fbr.gov.pk/categ/register-income-tax/51147/30846/%20101153",
+    "file": "8_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "8",
+    "lang": "ur",
+    "title": "رجسٹریشن کی تفصیلات میں تبدیلی",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کے-لیے-رجسٹریشن/131444/80915/%20131527",
+    "file": "8_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "9",
+    "lang": "en",
+    "title": "Logging into Iris",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/71158",
+    "file": "9_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "9",
+    "lang": "ur",
+    "title": "آئی آرآئی ایس میں لاگ ان ہونا",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/131608",
+    "file": "9_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "10",
+    "lang": "en",
+    "title": "Password for Iris Login",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/%2071159",
+    "file": "10_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "10",
+    "lang": "ur",
+    "title": "آئی آرآئی ایس میں لاگ ان ہونے کے لیے پاس ورڈ",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131610",
+    "file": "10_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "11",
+    "lang": "en",
+    "title": "Completing Income Tax Return",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/71160",
+    "file": "11_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "11",
+    "lang": "ur",
+    "title": "انکم ٹیکس گوشوارے کی تکمیل",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131611",
+    "file": "11_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "12",
+    "lang": "en",
+    "title": "Revising Income Tax Return",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/%2071161",
+    "file": "12_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "12",
+    "lang": "ur",
+    "title": "انکم ٹیکس گوشواروں پر نظرثانی",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131612",
+    "file": "12_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "13",
+    "lang": "en",
+    "title": "Filing Income Tax Return after Deadline",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/%2071162",
+    "file": "13_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "13",
+    "lang": "ur",
+    "title": "مقررہ تاریخ کے بعد انکم ٹیکس گوشوارے جمع کروانا",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131615",
+    "file": "13_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "14",
+    "lang": "en",
+    "title": "Record Keeping for Income Tax Return",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/%2071163",
+    "file": "14_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "14",
+    "lang": "ur",
+    "title": "انکم ٹیکس گوشواروں کا ریکارڈ رکھنا",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131617",
+    "file": "14_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "15",
+    "lang": "en",
+    "title": "Privacy of Personal Information",
+    "url": "https://fbr.gov.pk/categ/file-income-tax-return/51147/80860/%2071166",
+    "file": "15_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "15",
+    "lang": "ur",
+    "title": "ذاتی معلومات کو صیغہ راز میں رکھنا",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کاگوشوارہ-جمع-کروائیں/131444/80919/%20131621",
+    "file": "15_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "16",
+    "lang": "en",
+    "title": "Change Your Personal Details",
+    "url": "https://fbr.gov.pk/change-your-personal-details/51147/71157",
+    "file": "16_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "16",
+    "lang": "ur",
+    "title": "اپنی ذاتی معلومات میں تبدیلی کریں",
+    "url": "https://urdu.fbr.gov.pk/اپنی-ذاتی-معلومات-میں-تبدیلی-کریں/131444/131592",
+    "file": "16_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "17",
+    "lang": "en",
+    "title": "Active Taxpayer List ATL",
+    "url": "https://fbr.gov.pk/categ/active-taxpayer-list-income-tax/51147/30859/71167",
+    "file": "17_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "17",
+    "lang": "ur",
+    "title": "فعال ٹیکس دہندہ کی فہرست اے ٹی ایل",
+    "url": "https://urdu.fbr.gov.pk/categ/فعال-ٹیکس-دہندہ-کی-فہرست-اے-ٹی-ایل/131444/80917/131547",
+    "file": "17_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "18",
+    "lang": "en",
+    "title": "Inclusion in ATL",
+    "url": "https://fbr.gov.pk/categ/active-taxpayer-list-income-tax/51147/30859/%2071168",
+    "file": "18_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "18",
+    "lang": "ur",
+    "title": "اے ٹی ایل میں شمولیت",
+    "url": "https://urdu.fbr.gov.pk/categ/فعال-ٹیکس-دہندہ-کی-فہرست-اے-ٹی-ایل/131444/80917/%20131446",
+    "file": "18_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "19",
+    "lang": "en",
+    "title": "Check Active Taxpayer Status",
+    "url": "https://fbr.gov.pk/categ/active-taxpayer-list-income-tax/51147/30859/%2071169",
+    "file": "19_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "19",
+    "lang": "ur",
+    "title": "فعال ٹیکس دہندہ کی فہرست چیک کریں",
+    "url": "https://urdu.fbr.gov.pk/categ/فعال-ٹیکس-دہندہ-کی-فہرست-اے-ٹی-ایل/131444/80917/%20131447",
+    "file": "19_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "20",
+    "lang": "en",
+    "title": "Active Taxpayer Benefits",
+    "url": "https://fbr.gov.pk/categ/active-taxpayer-list-income-tax/51147/30859/%2071170",
+    "file": "20_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "20",
+    "lang": "ur",
+    "title": "اے ٹی ایل فوائد",
+    "url": "https://urdu.fbr.gov.pk/categ/فعال-ٹیکس-دہندہ-کی-فہرست-اے-ٹی-ایل/131444/80917/%20131448",
+    "file": "20_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "21",
+    "lang": "en",
+    "title": "Logging into efile",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/81156",
+    "file": "21_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "21",
+    "lang": "ur",
+    "title": "ای فائل میں لاگ ان ہوں",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/131623",
+    "file": "21_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "22",
+    "lang": "en",
+    "title": "e-Payments",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/%2081157",
+    "file": "22_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "22",
+    "lang": "ur",
+    "title": "e-Payments",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/%20131625",
+    "file": "22_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "23",
+    "lang": "en",
+    "title": "Computerized Payment Receipt CPR",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/%2081158",
+    "file": "23_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "23",
+    "lang": "ur",
+    "title": "ادائیگیوں کی کمپیوٹرائزڈ رسید CPR",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/%20131627",
+    "file": "23_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "24",
+    "lang": "en",
+    "title": "Payment of Income Tax through Alternate Delivery Channels ADC",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/%2081159",
+    "file": "24_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "24",
+    "lang": "ur",
+    "title": "متبادل ذرائع سے انکم ٹیکس کی ادائیگی ADC",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/%20131628",
+    "file": "24_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "25",
+    "lang": "en",
+    "title": "Penalty for Late Payment",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/%2081160",
+    "file": "25_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "25",
+    "lang": "ur",
+    "title": "تاخیر سے ادائیگی پر جرمانہ",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/%20131629",
+    "file": "25_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "26",
+    "lang": "en",
+    "title": "Surcharge Payment ATL",
+    "url": "https://fbr.gov.pk/categ/pay-income-tax/51147/40850/%20132135",
+    "file": "26_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "26",
+    "lang": "ur",
+    "title": "جرمانے کی ادائیگی فعال ٹیکس گزاروں کی فہرست ATL",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ادا-کریں/131444/80920/%20132163",
+    "file": "26_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "27",
+    "lang": "en",
+    "title": "Income Tax Due Dates",
+    "url": "https://fbr.gov.pk/categ/income-tax-due-dates/51147/40846/81148",
+    "file": "27_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "27",
+    "lang": "ur",
+    "title": "انکم ٹیکس کی مقررہ تاریخیں",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-مقررہ-تاریخیں/131444/80921/131632",
+    "file": "27_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "28",
+    "lang": "en",
+    "title": "Tax Period for Income Tax Return",
+    "url": "https://fbr.gov.pk/categ/income-tax-due-dates/51147/40846/%2081149",
+    "file": "28_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "28",
+    "lang": "ur",
+    "title": "انکم ٹیکس گوشواروں کے لیے ٹیکس کی مدت",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-مقررہ-تاریخیں/131444/80921/%20131634",
+    "file": "28_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "29",
+    "lang": "en",
+    "title": "Income Tax Refund",
+    "url": "https://fbr.gov.pk/categ/income-tax-refund/51147/40847/81150",
+    "file": "29_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "29",
+    "lang": "ur",
+    "title": "انکم ٹیکس ریفنڈ",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ریفنڈ/131444/80922/131635",
+    "file": "29_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "30",
+    "lang": "en",
+    "title": "Centralized System of Online Payment of Income Tax Refunds",
+    "url": "https://fbr.gov.pk/categ/income-tax-refund/51147/40847/%20152343",
+    "file": "30_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "30",
+    "lang": "ur",
+    "title": "انکم ٹیکس ریفنڈ کی آن لائن ادائیگی کے لئے ایک سنٹرلائزڈ سسٹم",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-ریفنڈ/131444/80922/%20152345",
+    "file": "30_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "31",
+    "lang": "en",
+    "title": "Right of Appeal",
+    "url": "https://fbr.gov.pk/categ/income-tax-appeals/51147/40848/81151",
+    "file": "31_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "31",
+    "lang": "ur",
+    "title": "اپیل کا حق",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-اپیلیں/131444/80923/131636",
+    "file": "31_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "32",
+    "lang": "en",
+    "title": "Persons Eligible to Appeal",
+    "url": "https://fbr.gov.pk/categ/income-tax-appeals/51147/40848/%2081152",
+    "file": "32_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "32",
+    "lang": "ur",
+    "title": "اپیل کے اہل افراد",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-اپیلیں/131444/80923/%20131637",
+    "file": "32_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "33",
+    "lang": "en",
+    "title": "Requirements for Making an Appeal",
+    "url": "https://fbr.gov.pk/categ/income-tax-appeals/51147/40848/%2081153",
+    "file": "33_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "33",
+    "lang": "ur",
+    "title": "اپیل کے لیے شرائط",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-اپیلیں/131444/80923/%20131638",
+    "file": "33_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "34",
+    "lang": "en",
+    "title": "Time Limit for Making an Appeal",
+    "url": "https://fbr.gov.pk/categ/income-tax-appeals/51147/40848/%2081154",
+    "file": "34_en.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  },
+  {
+    "pair_id": "34",
+    "lang": "ur",
+    "title": "اپیل دائر کرنے کی مدت",
+    "url": "https://urdu.fbr.gov.pk/categ/انکم-ٹیکس-کی-اپیلیں/131444/80923/%20131639",
+    "file": "34_ur.html",
+    "accessed": "2026-10-08",
+    "ok": true
+  }
+]
