@@ -1,0 +1,70 @@
+{
+  "corpus_sha256": "27984db2142baa2ba614f4d7f0a4d1ca37a48c6652df8391e01a3511107b977a",
+  "questions_sha256": "4efe124d1fe96cb05eca83c5a08ee4a7aeb1eea43671e5acc01c26162333cd7e",
+  "labels": {
+    "Q01": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q02": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q03": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q04": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q05": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q06": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q07": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q08": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q09": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q10": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q11": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q12": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q13": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q14": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q15": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    },
+    "Q16": {
+      "reviewed": false,
+      "relevant_chunk_ids": []
+    }
+  }
+}

@@ -34,18 +34,38 @@ Pipeline: scrape FBR pages → clean and normalize → chunk by section → embe
 
 ## Evaluation
 
-- Question set: TODO questions (Urdu, English, Roman Urdu; includes unanswerable questions), written and checked by hand
-- Metrics: hit@1/5/10, MRR, faithfulness (Ragas), refusal accuracy, latency, cost per query
+- Question set: 20 drafts in `eval/questions_draft.md`: 16 answerable and 4 unanswerable, across English, Urdu, and Roman Urdu.
+- Baseline evaluation: saved `intfloat/multilingual-e5-small` vectors, NumPy dot-product search over all 131 chunks, no answer generation. Corpus checksums and row alignment are verified before reuse. Questions use the same pinned revision, `query: ` prefix, normalization, and token-limit checks.
+
+From the repository root in PowerShell, run:
+
+```powershell
+.\venv\Scripts\python.exe .\src\evaluate.py --repeats 3
+```
+
+Results are under `eval/results/multilingual-e5-small/`: answerable and
+unanswerable top-10 retrieval outputs (IDs, scores, URLs), `summary.json`,
+`summary.md`, and manual-labeling candidates/template. No model download is
+needed with the existing pinned local cache.
 
 ### Results
 
-| Experiment | hit@5 Urdu | hit@5 English | hit@5 Roman Urdu | MRR |
-|---|---|---|---|---|
-| Baseline (Model A) | TODO | TODO | TODO | TODO |
-| Model B | TODO | TODO | TODO | TODO |
-| Model C | TODO | TODO | TODO | TODO |
-| + Hybrid search | TODO | TODO | TODO | TODO |
-| + Reranker | TODO | TODO | TODO | TODO |
+| Question language | Answerable questions | Hit@1 | Hit@5 | Hit@10 | MRR@10 |
+| --- | --- | --- | --- | --- | --- |
+| Overall | 16 | N/A | N/A | N/A | N/A |
+| English | 6 | N/A | N/A | N/A | N/A |
+| Urdu | 5 | N/A | N/A | N/A | N/A |
+| Roman Urdu | 5 | N/A | N/A | N/A | N/A |
+
+No finalized relevance labels exist for Q01–Q16; source-section references are
+review candidates, not accepted chunk IDs. Metrics are unavailable until manual
+labeling. Review `manual_labeling_needed.jsonl`, including equivalent evidence in
+both corpus languages. Copy `relevance_labels_template.json` from the results
+folder to `eval/relevance_labels.json`, enter reviewed relevant chunk IDs, set
+`reviewed` to true, and rerun evaluation. Labels must match the corpus/question
+checksums. Q06 needs both password and PIN evidence; Hit/MRR measure any relevant
+hit rather than complete evidence coverage. Unanswerable questions never enter
+these metrics.
 
 ## Failure analysis
 
@@ -57,7 +77,12 @@ See [`docs/decisions.md`](docs/decisions.md) for the reasoning behind each desig
 
 ## Cost and latency
 
-TODO: p50/p95 latency per query, average cost per query, which LLM was used.
+Measured E5 baseline CPU query encoding plus full NumPy search: p50 **44.53 ms**,
+p95 **69.41 ms**, mean **47.63 ms** across 60 samples (20 questions × 3 passes,
+batch size 1, after 3 warm-up queries). Model loading and output serialization
+are excluded. These are local measurements, not a service latency guarantee.
+Per-language timings and environment details are saved in the evaluation summary.
+No answer generation or API cost was evaluated.
 
 ## Tech stack
 
@@ -77,6 +102,20 @@ Python, requests + BeautifulSoup, sentence-transformers, TODO embedding models, 
     TODO: commands to build the index and start the app
 
 ## Repository structure
+
+Create multilingual embeddings with `python src/embed.py` after chunking.
+The first run downloads `intfloat/multilingual-e5-small` into `.cache/models`.
+Outputs in `data/embeddings/multilingual-e5-small/` are `vectors.npy` (normalized
+float32 vectors), an aligned copy of `chunks.jsonl`, and `manifest.json` with
+model revision, dimensions, token limits, and input checksum. Both downloaded
+models and generated embeddings are ignored by Git.
+
+For retrieval, load the same model/revision and encode questions using
+`encode_texts(model, questions, "query")` from `src/embed.py`. Rank normalized
+passage vectors by their dot product with the normalized query vector. Use the
+matching metadata row for citations. English and Urdu share the vector space;
+Roman Urdu retrieval quality still needs evaluation. The script rejects inputs
+above the model's token limit instead of silently truncating them.
 
 Chunk extracted pages with `python src/chunk.py`. This writes UTF-8
 `data/processed/chunks.jsonl`, one JSON object per chunk. Use `text` for embeddings

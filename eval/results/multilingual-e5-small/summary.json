@@ -1,0 +1,146 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embeddings_reused": true,
+  "corpus_sha256": "27984db2142baa2ba614f4d7f0a4d1ca37a48c6652df8391e01a3511107b977a",
+  "questions_sha256": "4efe124d1fe96cb05eca83c5a08ee4a7aeb1eea43671e5acc01c26162333cd7e",
+  "vectors_sha256": "18437b320f93ebd2d6ee12ca9c55c03c2e764006c9e542a4904a5422d1d5c3d7",
+  "labels_sha256": null,
+  "chunk_count": 131,
+  "question_counts": {
+    "English": 7,
+    "Urdu": 7,
+    "Roman Urdu": 6
+  },
+  "answerable_count": 16,
+  "unanswerable_count": 4,
+  "validated_label_count": 0,
+  "missing_label_ids": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q16"
+  ],
+  "metric_status": "unavailable: manual relevance labels missing",
+  "overall": {
+    "count": 0,
+    "hit_at_1": null,
+    "hit_at_5": null,
+    "hit_at_10": null,
+    "mrr_at_10": null
+  },
+  "by_language": {
+    "English": {
+      "count": 0,
+      "hit_at_1": null,
+      "hit_at_5": null,
+      "hit_at_10": null,
+      "mrr_at_10": null
+    },
+    "Roman Urdu": {
+      "count": 0,
+      "hit_at_1": null,
+      "hit_at_5": null,
+      "hit_at_10": null,
+      "mrr_at_10": null
+    },
+    "Urdu": {
+      "count": 0,
+      "hit_at_1": null,
+      "hit_at_5": null,
+      "hit_at_10": null,
+      "mrr_at_10": null
+    }
+  },
+  "labeled_subset_only": {
+    "overall": {
+      "count": 0,
+      "hit_at_1": null,
+      "hit_at_5": null,
+      "hit_at_10": null,
+      "mrr_at_10": null
+    },
+    "by_language": {
+      "English": {
+        "count": 0,
+        "hit_at_1": null,
+        "hit_at_5": null,
+        "hit_at_10": null,
+        "mrr_at_10": null
+      },
+      "Roman Urdu": {
+        "count": 0,
+        "hit_at_1": null,
+        "hit_at_5": null,
+        "hit_at_10": null,
+        "mrr_at_10": null
+      },
+      "Urdu": {
+        "count": 0,
+        "hit_at_1": null,
+        "hit_at_5": null,
+        "hit_at_10": null,
+        "mrr_at_10": null
+      }
+    }
+  },
+  "metric_definition": "Hit@k: any labeled relevant chunk in top k; MRR@10: reciprocal first relevant rank, else zero. Unanswerable excluded. Q06 requires both source topics for full evidence coverage; Hit/MRR measure any hit only.",
+  "token_checks": {
+    "limit": 512,
+    "max_passage_tokens": 331,
+    "max_query_tokens": 37
+  },
+  "latency": {
+    "device": "cpu",
+    "warmup_queries": 3,
+    "repeats": 3,
+    "batch_size": 1,
+    "scope": "query prefix, tokenization/limit validation, normalized encoding, vector validation, full NumPy dot product and top-10 sort; excludes model loading, passage checks, serialization",
+    "all_questions": {
+      "samples": 60,
+      "mean_ms": 47.63218333325009,
+      "p50_ms": 44.52990000027057,
+      "p95_ms": 69.41109000035792
+    },
+    "by_language": {
+      "English": {
+        "samples": 21,
+        "mean_ms": 51.53789523778652,
+        "p50_ms": 47.52259999986563,
+        "p95_ms": 82.67789999990782
+      },
+      "Roman Urdu": {
+        "samples": 18,
+        "mean_ms": 43.45641666683756,
+        "p50_ms": 40.18210000049294,
+        "p95_ms": 59.67405999990659
+      },
+      "Urdu": {
+        "samples": 21,
+        "mean_ms": 47.3056999999244,
+        "p50_ms": 46.88249999890104,
+        "p95_ms": 57.81159999969532
+      }
+    }
+  },
+  "environment": {
+    "python": "3.13.2",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.5.3",
+    "sentence_transformers": "6.1.0",
+    "torch": "2.14.1+cpu",
+    "torch_threads": 2
+  }
+}
