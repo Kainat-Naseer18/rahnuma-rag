@@ -78,6 +78,16 @@ Python, requests + BeautifulSoup, sentence-transformers, TODO embedding models, 
 
 ## Repository structure
 
+Chunk extracted pages with `python src/chunk.py`. This writes UTF-8
+`data/processed/chunks.jsonl`, one JSON object per chunk. Use `text` for embeddings
+and keyword search, and `content` for the source passage. Each record includes
+`chunk_id`, language, page title, section heading, source URL, access date, and
+character offsets within its section. Sections stay separate and split at up to
+1,200 characters including the title and heading. To change the limit, run
+`python src/chunk.py --max-chars 1600`.
+
+Run chunking checks with `python -m unittest discover -s src -p test_chunk.py`.
+
     data/        page list, download log, processed chunks
     src/         download, extract, chunk, retrieval, generation, app
     eval/        question set and results

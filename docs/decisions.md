@@ -11,10 +11,10 @@ Each entry: what I chose, what else I considered, why, and how I'll know if it w
 - **Revisit if:** TODO
 
 ## 2. Chunking strategy
-- **Chosen:** One chunk per page section, split at 1,200 characters if longer, with page title and heading prepended
+- **Chosen:** One chunk per page section, split at 1,200 characters if longer, including the prepended page title and heading in that limit. Prefer line, sentence, then word boundaries. No overlap; chunks never cross sections.
 - **Considered:** Fixed-size chunks
 - **Why:** Sections match how questions are asked, and headings add context.
-- **Result:** TODO (chunk counts, any problems found)
+- **Result:** 131 chunks from 68 pages (66 English, 65 Urdu); largest chunk is 1,191 characters. Counts can change when sources are re-extracted. Character limits are not tokenizer limits; check the chosen embedding model's token limit before indexing.
 
 ## 3. Embedding models compared
 - **Chosen:** TODO
